@@ -1,0 +1,12 @@
+/* If the screen size is 600px wide or less */
+@media screen and (max-width: 600px) {
+    .fixed-bottom {
+        position: relative;
+    }
+}
+
+.loading {
+    background: url(../static/loading.svg) no-repeat 50% 50%;
+    width: auto;
+    height: 40px;
+}
