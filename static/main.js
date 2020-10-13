@@ -52,7 +52,7 @@ $("#imgInp2").on("change", function() { //auto submit button
 
 
 //initilize graph with zeros
-updateGraph(0, 0, 0);
+updateGraph(0, 0, 0); 
 // Graph updater
 function updateGraph(normal, covid, pneumonia) {
     var normal = normal;
